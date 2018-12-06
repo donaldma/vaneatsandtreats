@@ -5,7 +5,7 @@ module.exports = [
     price: '$$',
     visitCount: 10,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 90,
     isClosed: false
   },
   {
@@ -14,7 +14,7 @@ module.exports = [
     price: '$$',
     visitCount: 3,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 93,
     isClosed: false
   },
   {
@@ -23,7 +23,7 @@ module.exports = [
     price: '$$',
     visitCount: 8,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 80,
     isClosed: false
   },
   {
@@ -32,7 +32,7 @@ module.exports = [
     price: '$$',
     visitCount: 6,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 75,
     isClosed: false
   },
   {
@@ -41,7 +41,7 @@ module.exports = [
     price: '$',
     visitCount: 9,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 80,
     isClosed: false
   },
   {
@@ -50,7 +50,7 @@ module.exports = [
     price: '$$',
     visitCount: 4,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 85,
     isClosed: false
   },
   {
@@ -59,7 +59,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 90,
     isClosed: false
   },
   {
@@ -68,7 +68,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 83,
     isClosed: false
   },
   {
@@ -77,7 +77,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 9,
+    rating: 81,
     isClosed: false
   },
   {
@@ -86,7 +86,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'breakfast/benny',
-    rating: 9,
+    rating: 90,
     isClosed: false
   },
   {
@@ -95,7 +95,7 @@ module.exports = [
     price: '$$',
     visitCount: 3,
     type: 'breakfast/benny',
-    rating: 7,
+    rating: 79,
     isClosed: false
   },
   {
@@ -104,7 +104,7 @@ module.exports = [
     price: '$',
     visitCount: 4,
     type: 'breakfast/benny',
-    rating: 7,
+    rating: 76,
     isClosed: false
   },
   {
@@ -113,7 +113,7 @@ module.exports = [
     price: '$$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 6,
+    rating: 68,
     isClosed: false
   },
   {
@@ -122,7 +122,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 5,
+    rating: 74,
     isClosed: false
   },
   {
@@ -131,7 +131,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 0,
+    rating: 86,
     isClosed: true
   },
   {
@@ -140,7 +140,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 86,
     isClosed: false
   },
   {
@@ -149,7 +149,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 72,
     isClosed: false
   },
   {
@@ -158,7 +158,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 84,
     isClosed: false
   },
   {
@@ -167,7 +167,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -176,7 +176,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 84,
     isClosed: false
   },
   {
@@ -185,7 +185,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 86,
     isClosed: false
   },
   {
@@ -194,7 +194,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 0,
     isClosed: true
   },
   {
@@ -203,7 +203,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 70,
     isClosed: false
   },
   {
@@ -212,7 +212,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 50,
     isClosed: true
   },
   {
@@ -221,7 +221,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 70,
     isClosed: false
   },
   {
@@ -230,7 +230,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 78,
     isClosed: false
   },
   {
@@ -239,7 +239,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -248,7 +248,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 81,
     isClosed: false
   },
   {
@@ -257,7 +257,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 83,
     isClosed: false
   },
   {
@@ -266,7 +266,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 85,
     isClosed: false
   },
   {
@@ -275,7 +275,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 90,
     isClosed: false
   },
   {
@@ -284,7 +284,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 84,
     isClosed: false
   },
   {
@@ -293,7 +293,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 1,
+    rating: 59,
     isClosed: false
   },
   {
@@ -302,7 +302,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 6,
+    rating: 84,
     isClosed: false
   },
   {
@@ -311,7 +311,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'dessert',
-    rating: 6,
+    rating: 70,
     isClosed: false
   },
   {
@@ -320,7 +320,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 6,
+    rating: 60,
     isClosed: false
   },
   {
@@ -329,7 +329,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 6,
+    rating: 90,
     isClosed: false
   },
   {
@@ -338,7 +338,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 81,
     isClosed: false
   },
   {
@@ -347,7 +347,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 75,
     isClosed: false
   },
   {
@@ -356,7 +356,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 60,
     isClosed: false
   },
   {
@@ -365,7 +365,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 67,
     isClosed: false
   },
   {
@@ -374,7 +374,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 78,
     isClosed: false
   },
   {
@@ -383,7 +383,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 83,
     isClosed: false
   },
   {
@@ -392,7 +392,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 72,
     isClosed: false
   },
   {
@@ -401,7 +401,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 76,
     isClosed: false
   },
   {
@@ -410,7 +410,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 78,
     isClosed: false
   },
   {
@@ -419,7 +419,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 74,
     isClosed: false
   },
   {
@@ -428,7 +428,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 64,
     isClosed: false
   },
   {
@@ -437,7 +437,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 82,
     isClosed: false
   },
   {
@@ -446,7 +446,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 85,
     isClosed: false
   },
   {
@@ -455,7 +455,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 91,
     isClosed: false
   },
   {
@@ -464,7 +464,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -473,7 +473,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 79,
     isClosed: false
   },
   {
@@ -482,7 +482,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 74,
     isClosed: false
   },
   {
@@ -491,7 +491,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -500,7 +500,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -509,7 +509,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 71,
     isClosed: false
   },
   {
@@ -518,7 +518,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 76,
     isClosed: false
   },
   {
@@ -527,7 +527,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 69,
     isClosed: false
   },
   {
@@ -536,7 +536,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'dessert',
-    rating: 1,
+    rating: 70,
     isClosed: false
   },
   {
@@ -545,7 +545,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 80,
     isClosed: false
   },
   {
@@ -554,7 +554,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -563,7 +563,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 80,
     isClosed: false
   },
   {
@@ -572,7 +572,7 @@ module.exports = [
     price: '$$',
     visitCount: 2,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 81,
     isClosed: false
   },
   {
@@ -581,7 +581,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 76,
     isClosed: false
   },
   {
@@ -590,7 +590,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 75,
     isClosed: false
   },
   {
@@ -599,7 +599,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 86,
     isClosed: false
   },
   {
@@ -608,7 +608,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 90,
     isClosed: false
   },
   {
@@ -617,7 +617,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 93,
     isClosed: false
   },
   {
@@ -626,7 +626,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 83,
     isClosed: false
   },
   {
@@ -635,7 +635,7 @@ module.exports = [
     price: '$$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 80,
     isClosed: false
   },
   {
@@ -644,7 +644,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 76,
     isClosed: false
   },
   {
@@ -653,16 +653,16 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 78,
     isClosed: false
   },
   {
-    name: 'Pho 37',
-    city: 'richmond',
-    price: '$$',
+    name: 'Vietnamese Tea House',
+    city: 'Vancouver',
+    price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 90,
     isClosed: false
   },
   {
@@ -671,7 +671,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 82,
     isClosed: false
   },
   {
@@ -680,7 +680,7 @@ module.exports = [
     price: '$',
     visitCount: 2,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 84,
     isClosed: false
   },
   {
@@ -689,7 +689,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 73,
     isClosed: false
   },
   {
@@ -698,7 +698,16 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 92,
+    isClosed: false
+  },
+  {
+    name: 'Pho 37',
+    city: 'richmond',
+    price: '$$',
+    visitCount: 1,
+    type: 'mal/thai/viet/kor',
+    rating: 94,
     isClosed: false
   },
   {
@@ -707,7 +716,7 @@ module.exports = [
     price: '$',
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 1,
+    rating: 82,
     isClosed: false
   },
 ]

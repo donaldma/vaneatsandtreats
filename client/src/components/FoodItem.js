@@ -53,7 +53,7 @@ class FoodItem extends Component {
                 <i className={classes.visitCount}>visited {visitCount} times</i>
               </div>
               <div className='mb-3'>
-                <Rater rating={rating} total={10} interactive={false} /> <span>{rating}</span>
+                <Rater rating={rating / 10} total={10} interactive={false} /> <span>{rating / 10}</span>
               </div>
               <div className='mb-3'>
                 {price} • {type}
