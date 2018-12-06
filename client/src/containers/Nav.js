@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { logout } from '../actions'
+import Icon from '@material-ui/core/Icon'
 
 class Nav extends Component {
   renderDesktopContent = () => {
@@ -11,17 +12,23 @@ class Nav extends Component {
     if (user) {
       content = (
         <ul className='right'>
-          {
-            user.isAdmin &&
+          {user.isAdmin && (
             <li>
               <Link to='/food/new'>New Entry</Link>
             </li>
-          }
+          )}
           <li>
             <Link to='/profile'>Profile</Link>
           </li>
           <li>
-            <Link to='#' onClick={() => this.props.logout()}>Logout</Link>
+            <Link to='#' onClick={() => this.props.logout()}>
+              Logout
+            </Link>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/vaneatsandtreats/' target='_blank'>
+              <Icon className='fab fa-instagram align-icons' />
+            </a>
           </li>
         </ul>
       )
@@ -30,6 +37,11 @@ class Nav extends Component {
         <ul className='right'>
           <li>
             <Link to='/login'>Login</Link>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/vaneatsandtreats/' target='_blank'>
+              <Icon className='fab fa-instagram align-icons' />
+            </a>
           </li>
         </ul>
       )
@@ -45,17 +57,27 @@ class Nav extends Component {
     if (user) {
       content = (
         <ul>
-          {
-            user.isAdmin &&
+          {user.isAdmin && (
             <li>
-              <Link to='/food/new' className='label'>New Entry</Link>
+              <Link to='/food/new' className='label'>
+                New Entry
+              </Link>
             </li>
-          }
+          )}
           <li>
-            <Link to='/profile' className='label'>Profile</Link>
+            <Link to='/profile' className='label'>
+              Profile
+            </Link>
           </li>
           <li>
-            <Link to='#' className='label' onClick={() => this.props.logout()}>Logout</Link>
+            <Link to='#' className='label' onClick={() => this.props.logout()}>
+              Logout
+            </Link>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/vaneatsandtreats/' target='_blank' className='label'>
+              <Icon className='fab fa-instagram align-icons' /> Check out our Instagram!
+            </a>
           </li>
         </ul>
       )
@@ -63,7 +85,14 @@ class Nav extends Component {
       content = (
         <ul>
           <li>
-            <Link to='/login' className='label'>Login</Link>
+            <Link to='/login' className='label'>
+              Login
+            </Link>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/vaneatsandtreats/' target='_blank' className='label'>
+              <Icon className='fab fa-instagram align-icons' /> Check out our Instagram!
+            </a>
           </li>
         </ul>
       )
@@ -76,15 +105,22 @@ class Nav extends Component {
     return (
       <header className='cd-morph-dropdown'>
         <div className='mobile-logo'>
-          <Link to='/'><img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' /></Link>
+          <Link to='/'>
+            <img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' />
+          </Link>
         </div>
-        <a href='#0' className='nav-trigger'>Open Nav<span aria-hidden='true'></span></a>
+        <a href='#0' className='nav-trigger'>
+          Open Nav
+          <span aria-hidden='true' />
+        </a>
 
         <div className='container p-0'>
           <nav className='main-nav'>
             <ul className='left'>
               <li className='logo'>
-                <Link to='/'><img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' /></Link>
+                <Link to='/'>
+                  <img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' />
+                </Link>
               </li>
             </ul>
             {this.renderDesktopContent()}
@@ -95,7 +131,7 @@ class Nav extends Component {
           <div className='dropdown-list'>
             {this.renderMobileContent()}
 
-            <div className='bg-layer' aria-hidden='true'></div>
+            <div className='bg-layer' aria-hidden='true' />
           </div>
         </div>
       </header>
@@ -107,5 +143,7 @@ const mapDispatchToProps = {
   logout
 }
 
-export default connect(null, mapDispatchToProps)(Nav)
-
+export default connect(
+  null,
+  mapDispatchToProps
+)(Nav)

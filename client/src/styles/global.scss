@@ -32,10 +32,9 @@ a {
 }
 
 .align-icons {
-  line-height: 19px;
-  display: inline-block;
   vertical-align: middle;
-  margin-right: 1rem;
+  line-height: 20px;
+  overflow: inherit !important;
 }
 
 .light-yellow-bg {
