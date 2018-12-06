@@ -1,0 +1,28 @@
+// breakpoints
+
+$xs:     400px;
+$sm:     576px;
+$md:     768px;
+$lg:     992px;
+$xl:     1200px;
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $sm) { @content; }
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $md) { @content; }
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $lg) { @content; }
+  }
+}
+
+// super light grid system
+
+@mixin column($percentage, $float-direction:left) {
+  width: 100% * $percentage;
+  float: $float-direction;
+}

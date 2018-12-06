@@ -1,0 +1,73 @@
+.home-container {
+  height: 100vh;
+  @include MQ(M) {
+    padding-top: 80px;
+  }
+}
+
+.home-headers-container {
+  position: absolute;
+  top: 12rem;
+  text-align: center;
+  padding: 0 2rem;
+  width: 100%;
+  @media (min-width: $xl) {
+    top: 17rem;
+  }
+  @media (max-width: $sm) {
+    top: 8rem;
+  }
+  @media (max-width: $xs) {
+    top: 7rem;
+  }
+}
+
+.home-header {
+  font-weight: 900;
+  font-size: 60px;
+  @media (max-width: $lg) {
+    font-size: 40px;
+  }
+  @media (max-width: $sm) {
+    font-size: 25px;
+  }
+  @media (max-width: $xs) {
+    font-size: 20px;
+  }
+}
+
+.home-subheader {
+  font-weight: 300;
+  @media (max-width: $lg) {
+    font-size: 20px;
+  }
+  @media (max-width: $sm) {
+    font-size: 14px;
+  }
+  @media (max-width: $xs) {
+    font-size: 12px;
+  }
+}
+
+.home-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 1.25rem;
+  background-color: $color-main;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: black;
+  }
+  @media (max-width: 399px) {
+    margin-top: 0;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.home-section-img {
+  width: 80%;
+  @media (max-width: $lg) {
+    padding-bottom: 3rem;
+    width: 70% !important;
+  }
+}
