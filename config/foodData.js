@@ -3,720 +3,955 @@ module.exports = [
     name: 'MYST Asian Fusion',
     city: 'burnaby',
     price: '$$',
+    rating: 90,
     visitCount: 10,
     type: 'mel + ken top',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Cafe de l’Orangerie',
     city: 'vancouver',
     price: '$$',
+    rating: 93,
     visitCount: 3,
     type: 'mel + ken top',
-    rating: 93,
     isClosed: false
   },
   {
     name: 'Gyu-Kaku Japanese BBQ',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 80,
     visitCount: 8,
     type: 'mel + ken top',
-    rating: 80,
     isClosed: false
   },
   {
     name: 'Matsuyama Japanese Restaurant',
     city: 'richmond',
     price: '$$',
+    rating: 75,
     visitCount: 6,
     type: 'mel + ken top',
-    rating: 75,
     isClosed: false
   },
   {
     name: 'Taco Luis',
     city: 'vancouver,richmond',
     price: '$',
+    rating: 80,
     visitCount: 9,
     type: 'mel + ken top',
-    rating: 80,
     isClosed: false
   },
   {
     name: 'The One',
     city: 'burnaby',
     price: '$$',
+    rating: 85,
     visitCount: 4,
     type: 'mel + ken top',
-    rating: 85,
     isClosed: false
   },
   {
     name: 'Indochine',
     city: 'vancouver',
     price: '$$',
+    rating: 90,
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Phnom Penh',
     city: 'vancouver',
     price: '$$',
+    rating: 83,
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 83,
     isClosed: false
   },
   {
     name: 'Strike',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 81,
     visitCount: 2,
     type: 'mel + ken top',
-    rating: 81,
     isClosed: false
   },
   {
     name: 'Yolks',
     city: 'vancouver',
     price: '$$',
+    rating: 90,
     visitCount: 2,
     type: 'breakfast/benny',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'White Spot',
-    city: 'vancouver,surrey,burnaby,richmond,coquitlam,langley,delta,north vancouver,maple ridge,new westminster,port coquitlam,west vancouver,white rock,tsawwassen',
+    city:
+      'vancouver,surrey,burnaby,richmond,coquitlam,langley,delta,north vancouver,maple ridge,new westminster,port coquitlam,west vancouver,white rock,tsawwassen',
     price: '$$',
+    rating: 79,
     visitCount: 3,
     type: 'breakfast/benny',
-    rating: 79,
     isClosed: false
   },
   {
     name: 'Bon’s',
     city: 'vancouver',
     price: '$',
+    rating: 76,
     visitCount: 4,
     type: 'breakfast/benny',
-    rating: 76,
     isClosed: false
   },
   {
     name: 'Chambar',
     city: 'vancouver',
     price: '$$$',
+    rating: 68,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 68,
     isClosed: false
   },
   {
-    name: 'Denny\'s',
+    name: "Denny's",
     city: 'vancouver,surrey,burnaby,richmond,coquitlam,langley,delta,north vancouver',
     price: '$$',
+    rating: 74,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 74,
     isClosed: false
   },
   {
     name: 'Bob’s',
     city: 'richmond',
     price: '$',
+    rating: 86,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 86,
     isClosed: true
   },
   {
     name: 'Jam Cafe',
     city: 'vancouver',
     price: '$$',
+    rating: 86,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 86,
     isClosed: false
   },
   {
     name: 'De Dutch',
     city: 'abbotsford,north vancouver,vancouver,burnaby,port coquitlam,kelowna,surrey,maple ridge,new westminster',
     price: '$$',
+    rating: 72,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 72,
     isClosed: false
   },
   {
     name: 'Burgoo Bistro',
     city: 'north vancouver,vancouver',
     price: '$$',
+    rating: 84,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 84,
     isClosed: false
   },
   {
     name: 'ABC Country Restaurant',
     city: 'richmond',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'Catch 122',
     city: 'vancouver',
     price: '$$',
+    rating: 84,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 84,
     isClosed: false
   },
   {
     name: 'Gilnetter Pub',
     city: 'port coquitlam',
     price: '$$',
+    rating: 86,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 86,
     isClosed: false
   },
   {
     name: 'Klaus’s Kaffee Haus',
     city: 'vancouver',
     price: '$$',
+    rating: 0,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 0,
     isClosed: true
   },
   {
     name: 'The Red Wagon',
     city: 'vancouver',
     price: '$$',
+    rating: 70,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 70,
     isClosed: false
   },
   {
     name: 'Acme Cafe',
     city: 'vancouver',
     price: '$$',
+    rating: 50,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 50,
     isClosed: true
   },
   {
     name: 'Milltown Bar & Grill',
     city: 'vancouver',
     price: '$$',
+    rating: 70,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 70,
     isClosed: false
   },
   {
     name: 'IHOP',
     city: 'richmond,vancouver,burnaby,new westminster,surrey,port coquitlam,langley,abbotsford',
     price: '$$',
+    rating: 78,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 78,
     isClosed: false
   },
   {
     name: 'Jethro’s Fine Grub',
     city: 'vancouver',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'The Gray Olive Cafeteria',
     city: 'burnaby',
     price: '$$',
+    rating: 81,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 81,
     isClosed: false
   },
   {
     name: 'La Foret',
     city: 'burnaby',
     price: '$$',
+    rating: 83,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 83,
     isClosed: false
   },
   {
     name: 'Chef’s Playground Eatery',
     city: 'richmond',
     price: '$$',
+    rating: 85,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 85,
     isClosed: false
   },
   {
     name: 'Edible Canada At the Market',
     city: 'vancouver',
     price: '$$',
+    rating: 90,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Cafe Zen',
     city: 'vancouver',
     price: '$$',
+    rating: 84,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 84,
     isClosed: false
   },
   {
     name: 'Twisted Fork',
     city: 'vancouver',
     price: '$$',
+    rating: 59,
     visitCount: 1,
     type: 'breakfast/benny',
-    rating: 59,
     isClosed: false
   },
   {
     name: 'Innocent Ice Cream',
     city: 'vancouver',
     price: '$$',
+    rating: 84,
     visitCount: 1,
     type: 'dessert',
-    rating: 84,
     isClosed: false
   },
   {
     name: 'Meet Fresh',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 70,
     visitCount: 2,
     type: 'dessert',
-    rating: 70,
     isClosed: false
   },
   {
     name: 'Bubble World',
     city: 'vancouver,richmond,burnaby',
     price: '$',
+    rating: 60,
     visitCount: 1,
     type: 'dessert',
-    rating: 60,
     isClosed: false
   },
   {
     name: 'Cacao70 Dip Shop',
     city: 'vancouver',
     price: '$',
+    rating: 90,
     visitCount: 1,
     type: 'dessert',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Bella Gelateria',
     city: 'vancouver',
     price: '$$',
+    rating: 81,
     visitCount: 1,
     type: 'dessert',
-    rating: 81,
     isClosed: false
   },
   {
     name: 'My Frosty',
     city: 'vancouver',
     price: '$',
+    rating: 75,
     visitCount: 1,
     type: 'dessert',
-    rating: 75,
     isClosed: false
   },
   {
     name: 'Passion8 dessert Cafe',
     city: 'vancouver',
     price: '$$',
+    rating: 60,
     visitCount: 1,
     type: 'dessert',
-    rating: 60,
     isClosed: false
   },
   {
     name: 'Buckets Ice Cream',
     city: 'vancouver',
     price: '$$',
+    rating: 67,
     visitCount: 1,
     type: 'dessert',
-    rating: 67,
     isClosed: false
   },
   {
     name: 'Bubble Queen',
     city: 'vancouver,richmond',
     price: '$',
+    rating: 78,
     visitCount: 1,
     type: 'dessert',
-    rating: 78,
     isClosed: false
   },
   {
     name: 'Nana’s Green Tea',
     city: 'vancouver',
     price: '$',
+    rating: 83,
     visitCount: 1,
     type: 'dessert',
-    rating: 83,
     isClosed: false
   },
   {
     name: 'SweetHoney dessert',
     city: 'richmond',
     price: '$',
+    rating: 72,
     visitCount: 1,
     type: 'dessert',
-    rating: 72,
     isClosed: false
   },
   {
     name: 'Jack Frost Cafe',
     city: 'richmond',
     price: '$$',
+    rating: 76,
     visitCount: 1,
     type: 'dessert',
-    rating: 76,
     isClosed: false
   },
   {
     name: 'Perverted Ice Cream',
     city: 'vancouver',
     price: '$',
+    rating: 78,
     visitCount: 1,
     type: 'dessert',
-    rating: 78,
     isClosed: false
   },
   {
     name: 'Boba Essence',
     city: 'vancouver',
     price: '$$',
+    rating: 74,
     visitCount: 1,
     type: 'dessert',
-    rating: 74,
     isClosed: false
   },
   {
     name: 'Mister',
     city: 'vancouver',
     price: '$$',
+    rating: 64,
     visitCount: 1,
     type: 'dessert',
-    rating: 64,
     isClosed: false
   },
   {
     name: 'I-ce Queen',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 82,
     visitCount: 1,
     type: 'dessert',
-    rating: 82,
     isClosed: false
   },
   {
     name: '720 Sweets',
     city: 'vancouver,burnaby,richmond',
     price: '$$',
+    rating: 85,
     visitCount: 1,
     type: 'dessert',
-    rating: 85,
     isClosed: false
   },
   {
     name: 'Off The Grid Waffles',
     city: 'vancouver',
     price: '$',
+    rating: 91,
     visitCount: 1,
     type: 'dessert',
-    rating: 91,
     isClosed: false
   },
   {
     name: 'Sulmida dessert Cafe',
     city: 'vancouver,burnaby,richmond',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'dessert',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'The Bubble Tea Shop',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 79,
     visitCount: 1,
     type: 'dessert',
-    rating: 79,
     isClosed: false
   },
   {
     name: 'Hugo’s Churros',
     city: 'richmond',
     price: '$$',
+    rating: 74,
     visitCount: 1,
     type: 'dessert',
-    rating: 74,
     isClosed: false
   },
   {
     name: 'La Casa Gelato',
     city: 'vancouver',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'dessert',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'Nero Belgian Waffle Bar',
     city: 'vancouver',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'dessert',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'Icy Bar',
     city: 'vancouver,richmond',
     price: '$$',
+    rating: 71,
     visitCount: 1,
     type: 'dessert',
-    rating: 71,
     isClosed: false
   },
   {
     name: 'ZenQ',
     city: 'vancouver,richmond,burnaby',
     price: '$$',
+    rating: 76,
     visitCount: 1,
     type: 'dessert',
-    rating: 76,
     isClosed: false
   },
   {
     name: 'Milkcow Cafe',
     city: 'richmond',
     price: '$$',
+    rating: 69,
     visitCount: 1,
     type: 'dessert',
-    rating: 69,
     isClosed: false
   },
   {
     name: 'Gong Cha',
     city: 'vancouver,richmond',
     price: '$',
+    rating: 70,
     visitCount: 1,
     type: 'dessert',
-    rating: 70,
     isClosed: false
   },
   {
     name: 'Thai House Restaurant',
     city: 'north vancouver,richmond',
     price: '$$',
+    rating: 80,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 80,
     isClosed: false
   },
   {
     name: 'Urban Thai Bistro',
     city: 'vancouver',
     price: '$$',
+    rating: 73,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'Sen Pad Thai',
     city: 'vancouver',
     price: '$$',
+    rating: 80,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 80,
     isClosed: false
   },
   {
     name: 'JOHN 3:16',
     city: 'north vancouver,richmond',
     price: '$$',
+    rating: 81,
     visitCount: 2,
     type: 'mal/thai/viet/kor',
-    rating: 81,
     isClosed: false
   },
   {
     name: 'Hawkers Delight Deli',
     city: 'vancouver',
     price: '$',
+    rating: 76,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 76,
     isClosed: false
   },
   {
     name: 'Penang Delight Cafe',
     city: 'vancouver',
     price: '$$',
+    rating: 75,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 75,
     isClosed: false
   },
   {
     name: 'Mamalee Malaysian Delight',
     city: 'vancouver',
     price: '$$',
+    rating: 86,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 86,
     isClosed: false
   },
   {
     name: 'Banana Leaf',
     city: 'vancouver',
     price: '$$',
+    rating: 90,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Prata Man',
     city: 'richmond',
     price: '$',
+    rating: 93,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 93,
     isClosed: false
   },
   {
     name: 'Anh and Chi',
     city: 'vancouver',
     price: '$$',
+    rating: 83,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 83,
     isClosed: false
   },
   {
     name: 'Lotus',
     city: 'richmond',
     price: '$$',
+    rating: 80,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 80,
     isClosed: false
   },
   {
     name: 'Pho Han',
     city: 'richmond',
     price: '$',
+    rating: 76,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 76,
     isClosed: false
   },
   {
     name: 'Pho Japolo',
     city: 'richmond,vancouver,north vancouver',
     price: '$',
+    rating: 78,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 78,
     isClosed: false
   },
   {
     name: 'Vietnamese Tea House',
     city: 'Vancouver',
     price: '$',
+    rating: 90,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 90,
     isClosed: false
   },
   {
     name: 'Pho Lan',
     city: 'richmond',
     price: '$',
+    rating: 82,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 82,
     isClosed: false
   },
   {
     name: 'Truong Thanh',
     city: 'vancouver',
     price: '$',
+    rating: 84,
     visitCount: 2,
     type: 'mal/thai/viet/kor',
-    rating: 84,
     isClosed: false
   },
   {
     name: 'Mui Ngo Gai',
     city: 'vancouver',
     price: '$',
+    rating: 73,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 73,
     isClosed: false
   },
   {
     name: 'Hoi An Cafe',
     city: 'vancouver',
     price: '$',
+    rating: 92,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 92,
     isClosed: false
   },
   {
     name: 'Pho 37',
     city: 'richmond',
     price: '$$',
+    rating: 94,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 94,
     isClosed: false
   },
   {
     name: 'Gold Train Express',
     city: 'vancouver',
     price: '$',
+    rating: 82,
     visitCount: 1,
     type: 'mal/thai/viet/kor',
-    rating: 82,
     isClosed: false
   },
+  {
+    name: 'Sushi Lovers',
+    city: 'richmond',
+    price: '$$',
+    rating: 81,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Samurai Sushi',
+    city: 'vancouver',
+    price: '$$',
+    rating: 67,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Moon',
+    city: 'vancouver',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Aji-Kura',
+    city: 'vancouver',
+    price: '$$',
+    rating: 76,
+    visitCount: 2,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Mura',
+    city: 'vancouver',
+    price: '$$',
+    rating: 84,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Gami Sushi',
+    city: 'richmond',
+    price: '$$',
+    rating: 82,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Loku',
+    city: 'vancouver',
+    price: '$$',
+    rating: 80,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Victoria Sushi',
+    city: 'burnaby',
+    price: '$$',
+    rating: 79,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Banzai Sushi House',
+    city: 'richmond',
+    price: '$',
+    rating: 78,
+    visitCount: 2,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Green Leaf Sushi',
+    city: 'vancouver',
+    price: '$$',
+    rating: 92,
+    visitCount: 2,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Ville',
+    city: 'vancouver',
+    price: '$$',
+    rating: 87,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Koto Izakaya',
+    city: 'richmond',
+    price: '$$',
+    rating: 74,
+    visitCount: 2,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Sushi',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'The Eatery',
+    city: 'vancouver',
+    price: '$$',
+    rating: 86,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'The General Public',
+    city: 'vancouver',
+    price: '$$',
+    rating: 86,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Oyama',
+    city: 'burnaby',
+    price: '$$',
+    rating: 83,
+    visitCount: 2,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi House',
+    city: 'richmond',
+    price: '$$',
+    rating: 72,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi California',
+    city: 'vancouver',
+    price: '$$',
+    rating: 77,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Sushi Garden',
+    city: 'burnaby',
+    price: '$$',
+    rating: 88,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'fokurokusushiexpress',
+    city: 'richmond',
+    price: '$',
+    rating: 69,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Tokyo Joe Sushi',
+    city: 'richmond',
+    price: '$$',
+    rating: 61,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Honsushi',
+    city: 'burnaby',
+    price: '$$',
+    rating: 74,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Mega Sushi',
+    city: 'richmond,west vancouver,coquitlam',
+    price: '$$',
+    rating: 75,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Volcano Sushi',
+    city: 'vancouver',
+    price: '$$',
+    rating: 81,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: true
+  },
+  {
+    name: 'Sushi Aji',
+    city: 'vancouver',
+    price: '$$',
+    rating: 87,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  },
+  {
+    name: 'Viva Sushi Bar',
+    city: 'vancouver',
+    price: '$$',
+    rating: 96,
+    visitCount: 1,
+    type: 'sushi',
+    isClosed: false
+  }
 ]
