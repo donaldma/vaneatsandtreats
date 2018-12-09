@@ -5,6 +5,7 @@ import { Card, CardContent, Icon, IconButton } from '@material-ui/core'
 import Rater from 'react-rater'
 import 'react-rater/lib/react-rater.css'
 import classNames from 'classnames'
+import _ from 'lodash'
 
 const styles = (theme) => ({
   root: {},
@@ -59,8 +60,7 @@ class FoodItem extends Component {
                 {price} • {type}
               </div>
             </div>
-            {
-              user && user.isAdmin &&
+            {user && user.isAdmin && (
               <div className='col-2 text-right'>
                 <Link to={{ pathname: `/food/edit/${id}`, state: { foodObj: this.props.foodObj } }}>
                   <Icon className={classes.editIcon} fontSize='small'>
@@ -68,10 +68,10 @@ class FoodItem extends Component {
                   </Icon>
                 </Link>
               </div>
-            }
+            )}
           </div>
           <div className={classNames(classes.citiesRow, 'row pt-3')}>
-            {cities.map((x, i) => {
+            {_.sortBy(cities).map((x, i) => {
               const selectedCity = filters.city === x
               return (
                 <div

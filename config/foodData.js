@@ -953,5 +953,149 @@ module.exports = [
     visitCount: 1,
     type: 'sushi',
     isClosed: false
+  },
+  {
+    name: 'Sanpoutei Ramen',
+    city: 'richmond',
+    price: '$$',
+    rating: 79,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'The Ramen Butcher',
+    city: 'vancouver',
+    price: '$$',
+    rating: 81,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Sentouka',
+    city: 'vancouver',
+    price: '$$',
+    rating: 68,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'kintaro',
+    city: 'vancouver',
+    price: '$',
+    rating: 75,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Ramen TAKA notsume',
+    city: 'vancouver',
+    price: '$$',
+    rating: 64,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Marutama',
+    city: 'vancouver',
+    price: '$$',
+    rating: 84,
+    visitCount: 5,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Yah Yah Ya Ramen',
+    city: 'vancouver, richmond',
+    price: '$$',
+    rating: 53,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Ramen Danbo',
+    city: 'vancouver',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Taishoken Ramen',
+    city: 'vancouver',
+    price: '$$',
+    rating: 88,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'G-men Ramen',
+    city: 'richmond',
+    price: '$$',
+    rating: 73,
+    visitCount: 2,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Ramen Koika',
+    city: 'vancouver',
+    price: '$$',
+    rating: 68,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Sekai Udon Bar',
+    city: 'burnaby',
+    price: '$$',
+    rating: 87,
+    visitCount: 2,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Boiling Point',
+    city: 'vancouver,richmond,burnaby',
+    price: '$$',
+    rating: 81,
+    visitCount: 2,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Deer Garden Signatures',
+    city: 'vancouver,richmond',
+    price: '$$',
+    rating: 85,
+    visitCount: 2,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Laksa King',
+    city: 'vancouver',
+    price: '$$',
+    rating: 78,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
+  },
+  {
+    name: 'Congee Noodle King',
+    city: 'vancouver',
+    price: '$$',
+    rating: 70,
+    visitCount: 1,
+    type: 'ramen/noodles',
+    isClosed: false
   }
 ]
