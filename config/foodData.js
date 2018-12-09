@@ -1097,5 +1097,176 @@ module.exports = [
     visitCount: 1,
     type: 'ramen/noodles',
     isClosed: false
+  },
+  {
+    name: 'Maenam',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Holycrab',
+    city: 'vancouver',
+    price: '$$$',
+    rating: 77,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'The Captain’s Boil',
+    city: 'vancouver,richmond,north vancouver',
+    price: '$$',
+    rating: 76,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Joe Fortes Seafood & Chop House',
+    city: 'vancouver',
+    price: '$$$',
+    rating: 88,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Trattoria',
+    city: 'vancouver,burnaby',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Kobe Japanese Steakhouse',
+    city: 'vancouver',
+    price: '$$$',
+    rating: 87,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Miku',
+    city: 'vancouver',
+    price: '$$$',
+    rating: 90,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Steveston Pizza Company',
+    city: 'richmond',
+    price: '$$',
+    rating: 95,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'The Keg',
+    city: 'vancouver,richmond,west vancouver',
+    price: '$$$',
+    rating: 88,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Glowbal',
+    city: 'vancouver',
+    price: '$$$',
+    rating: 99,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Tap & Barrel',
+    city: 'vancouver',
+    price: '$$',
+    rating: 80,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'The Boathouse Restaurant',
+    city: 'vancouver,richmond,new westminster',
+    price: '$$',
+    rating: 64,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Midam Cafe',
+    city: 'richmond',
+    price: '$$',
+    rating: 80,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Kosoo Restaurant',
+    city: 'vancouver',
+    price: '$$',
+    rating: 82,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Morak Korean Restaurant',
+    city: 'burnaby',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'ARISU Authentic Korean BBQ',
+    city: 'burnaby',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Damso',
+    city: 'vancouver',
+    price: '$$',
+    rating: 70,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Zabu Chicken',
+    city: 'vancouver',
+    price: '$$',
+    rating: 82,
+    visitCount: 2,
+    type: 'bougie',
+    isClosed: false
+  },
+  {
+    name: 'Seoul Grill House',
+    city: 'surrey',
+    price: '$$',
+    rating: 78,
+    visitCount: 1,
+    type: 'bougie',
+    isClosed: false
   }
 ]
