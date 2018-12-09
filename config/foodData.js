@@ -1268,5 +1268,68 @@ module.exports = [
     visitCount: 1,
     type: 'bougie',
     isClosed: false
+  },
+  {
+    name: 'Pokeritto',
+    city: 'vancouver',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'poke',
+    isClosed: false
+  },
+  {
+    name: 'Shishinori',
+    city: 'vancouver',
+    price: '$$',
+    rating: 80,
+    visitCount: 1,
+    type: 'poke',
+    isClosed: false
+  },
+  {
+    name: 'Poke Station',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 2,
+    type: 'poke',
+    isClosed: true
+  },
+  {
+    name: 'The Poke Guy',
+    city: 'vancouver',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'poke',
+    isClosed: false
+  },
+  {
+    name: 'Daddy’s Kitchen',
+    city: 'vancouver',
+    price: '$$',
+    rating: 86,
+    visitCount: 3,
+    type: 'poke',
+    isClosed: false
+  },
+  {
+    name: 'Hoke Poke',
+    city: 'vancouver',
+    price: '$$',
+    rating: 64,
+    visitCount: 1,
+    type: 'poke',
+    isClosed: false
+  },
+  {
+    name: 'Poke Time',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'poke',
+    isClosed: false
   }
 ]
