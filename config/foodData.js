@@ -298,6 +298,15 @@ module.exports = [
     isClosed: false
   },
   {
+    name: 'The Edge Café',
+    city: 'vancouver',
+    price: '$$',
+    rating: 20,
+    visitCount: 1,
+    type: 'breakfast/benny',
+    isClosed: true
+  },
+  {
     name: 'Innocent Ice Cream',
     city: 'vancouver',
     price: '$$',
@@ -518,6 +527,24 @@ module.exports = [
     city: 'vancouver,richmond,burnaby',
     price: '$$',
     rating: 76,
+    visitCount: 1,
+    type: 'dessert',
+    isClosed: false
+  },
+  {
+    name: 'Dazzling Cafe',
+    city: 'richmond',
+    price: '$$',
+    rating: 20,
+    visitCount: 1,
+    type: 'dessert',
+    isClosed: true
+  },
+  {
+    name: 'Well Tea',
+    city: 'richmond',
+    price: '$$',
+    rating: 30,
     visitCount: 1,
     type: 'dessert',
     isClosed: false
@@ -1331,5 +1358,115 @@ module.exports = [
     visitCount: 1,
     type: 'poke',
     isClosed: false
-  }
+  },
+  {
+    name: 'Lucy’s Eastside Diner',
+    city: 'vancouver',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Flying Beaver Bar',
+    city: 'richmond',
+    price: '$$',
+    rating: 76,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Earls',
+    city:
+      'vancouver,richmond,burnaby,chilliwack,kamloops,kelowna,langley,penticton,port coquitlam,prince george,surrey,vernon,victoria,west vancouver,whistler',
+    price: '$$',
+    rating: 76,
+    visitCount: 2,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Boston Pizza',
+    city:
+      'vancouver,richmond,burnaby,chilliwack,kamloops,kelowna,langley,penticton,port coquitlam,prince george,surrey,vernon,victoria,west vancouver,whistler,',
+    price: '$$',
+    rating: 83,
+    visitCount: 3,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'The Dime',
+    city: 'vancouver',
+    price: '$',
+    rating: 83,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Red Robin Gourmet Burgers',
+    city: 'vancouver',
+    price: '$$',
+    rating: 80,
+    visitCount: 2,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Memphis Blues',
+    city: 'vancouver',
+    price: '$$',
+    rating: 78,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'The Union',
+    city: 'vancouver',
+    price: '$$',
+    rating: 69,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Stepho’s',
+    city: 'vancouver',
+    price: '$$',
+    rating: 84,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'Anton’s Pasta Bar',
+    city: 'burnaby',
+    price: '$$',
+    rating: 65,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'The Old Spaghetti Factory',
+    city: 'vancouver,richmond',
+    price: '$$',
+    rating: 71,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
+  {
+    name: 'The Moose Vancouver',
+    city: 'vancouver',
+    price: '$',
+    rating: 76,
+    visitCount: 1,
+    type: 'western/greek/italian',
+    isClosed: false
+  },
 ]
