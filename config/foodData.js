@@ -1460,8 +1460,24 @@ module.exports = [
     type: 'western/greek/italian',
     isClosed: false
   },
-  { name: 'BT Cafe', city: 'vancouver', price: '$', rating: 76, visitCount: 1, type: 'asian/dim sum', isClosed: false },
-  { name: 'E Tea', city: 'vancouver', price: '$', rating: 74, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'BT Cafe',
+    city: 'vancouver',
+    price: '$',
+    rating: 76,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'E Tea',
+    city: 'vancouver',
+    price: '$',
+    rating: 74,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
   {
     name: 'Alleluia Cafe',
     city: 'richmond',
@@ -1489,7 +1505,15 @@ module.exports = [
     type: 'asian/dim sum',
     isClosed: false
   },
-  { name: 'Soho Tea Room', city: 'vancouver', price: '$$', rating: 77, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Soho Tea Room',
+    city: 'vancouver',
+    price: '$$',
+    rating: 77,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
   {
     name: 'Bubble World',
     city: 'vancouver,richmond,burnaby',
@@ -1553,7 +1577,15 @@ module.exports = [
     type: 'asian/dim sum',
     isClosed: false
   },
-  { name: 'Tin Tin Seafood Harbour', city: 'richmond', price: '$$', rating: 75, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Tin Tin Seafood Harbour',
+    city: 'richmond',
+    price: '$$',
+    rating: 75,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
   {
     name: 'Come Along Seafood Restaurant',
     city: 'vancouver',
@@ -1563,7 +1595,15 @@ module.exports = [
     type: 'asian/dim sum',
     isClosed: false
   },
-  { name: 'NingTu Restaurant', city: 'vancouver', price: '$$', rating: 84, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'NingTu Restaurant',
+    city: 'vancouver',
+    price: '$$',
+    rating: 84,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
   {
     name: 'Pepper Lunch',
     city: 'vancouver,richmond',
@@ -1571,6 +1611,60 @@ module.exports = [
     rating: 50,
     visitCount: 1,
     type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Kyo',
+    city: 'vancouver',
+    price: '$$',
+    rating: 72,
+    visitCount: 1,
+    type: 'ayce',
+    isClosed: false
+  },
+  {
+    name: 'Happy Sushi',
+    city: 'vancouver',
+    price: '$$',
+    rating: 71,
+    visitCount: 1,
+    type: 'ayce',
+    isClosed: false
+  },
+  {
+    name: 'Kawawa',
+    city: 'burnaby',
+    price: '$$',
+    rating: 65,
+    visitCount: 1,
+    type: 'ayce',
+    isClosed: false
+  },
+  {
+    name: 'Richmond Sushi',
+    city: 'richmond',
+    price: '$$',
+    rating: 60,
+    visitCount: 1,
+    type: 'ayce',
+    isClosed: false
+  },
+  {
+    name: 'Ninkazu',
+    city: 'richmond',
+    price: '$$',
+    rating: 60,
+    visitCount: 1,
+    type: 'ayce',
+    isClosed: false
+  },
+  {
+    name: 'Kisha Poppo',
+    city: 'richmond',
+    price: '$$',
+    rating: 70,
+    visitCount: 1,
+    type: 'ayce',
     isClosed: false
   }
 ]
