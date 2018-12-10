@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { getFood,postActivity } from '../actions'
+import { getFood, postActivity } from '../actions'
 import FoodList from '../components/FoodList'
 import Filterbar from '../components/Filterbar'
 import Loader from '../components/Loader'
 import FiltersHelper from '../utils/FiltersHelper'
 import Helpers from '../utils/Helpers'
+import Fab from '@material-ui/core/Fab'
+import Icon from '@material-ui/core/Icon'
 
 class Home extends Component {
   state = {
@@ -16,14 +18,32 @@ class Home extends Component {
       sortByHighestRated: false,
       searchTerm: '',
       searchInstance: undefined
-    }
+    },
+    scrollToTopDisplay: 'none'
   }
 
   async componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
     const promises = [this.props.getFood(), this.props.postActivity()]
     await Promise.all(promises)
 
     this.setState({ searchInstance: FiltersHelper.initSearch() })
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll = () => {
+    if (window.scrollY > 200) {
+      this.setState({ scrollToTopDisplay: 'block' })
+    } else {
+      this.setState({ scrollToTopDisplay: 'none' })
+    }
+  }
+
+  scrollToTop = () => {
+    window.scrollTo(0, 0)
   }
 
   resetFilters = () => {
@@ -73,7 +93,7 @@ class Home extends Component {
 
   render() {
     const { user } = this.props
-    const { searchInstance, filters } = this.state
+    const { searchInstance, filters, scrollToTopDisplay } = this.state
 
     if (!searchInstance || this.props.foodReducer.data === null) return <Loader />
 
@@ -95,6 +115,9 @@ class Home extends Component {
         />
         <div className='container'>
           <FoodList filteredFoodData={finalFilteredFoodData} filters={filters} user={user} />
+          <Fab className='scroll-to-top' onClick={this.scrollToTop} style={{ display: scrollToTopDisplay }}>
+            <Icon>keyboard_arrow_up</Icon>
+          </Fab>
         </div>
       </div>
     )
@@ -102,7 +125,8 @@ class Home extends Component {
 }
 
 const mapDispatchToProps = {
-  getFood, postActivity
+  getFood,
+  postActivity
 }
 
 const mapStateToProps = ({ foodReducer }) => ({
