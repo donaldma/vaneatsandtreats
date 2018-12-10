@@ -1666,5 +1666,50 @@ module.exports = [
     visitCount: 1,
     type: 'ayce',
     isClosed: false
+  },
+  {
+    name: 'Cockney Kings Fish & Chips',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'fish & chips/wings',
+    isClosed: false
+  },
+  {
+    name: 'WINGS',
+    city: 'vancouver,burnaby',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'fish & chips/wings',
+    isClosed: false
+  },
+  {
+    name: 'Fogg ‘n’ Suds',
+    city: 'richmond',
+    price: '$$',
+    rating: 68,
+    visitCount: 1,
+    type: 'fish & chips/wings',
+    isClosed: false
+  },
+  {
+    name: 'Shark Club',
+    city: 'vancouver,richmond',
+    price: '$$',
+    rating: 78,
+    visitCount: 3,
+    type: 'fish & chips/wings',
+    isClosed: false
+  },
+  {
+    name: 'Pajo’s Fish & Chips',
+    city: 'richmond,port moody,port coquitlam',
+    price: '$$',
+    rating: 71,
+    visitCount: 1,
+    type: 'fish & chips/wings',
+    isClosed: false
   }
 ]
