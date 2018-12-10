@@ -1711,5 +1711,158 @@ module.exports = [
     visitCount: 1,
     type: 'fish & chips/wings',
     isClosed: false
+  },
+  {
+    name: 'House of Dosas',
+    city: 'vancouver',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Shawarma Palace',
+    city: 'richmond',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Supreme Pizza',
+    city: 'vancouver',
+    price: '$',
+    rating: 90,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Frying Pan',
+    city: 'vancouver',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Straight Outta Brooklyn NYC Pizzeria',
+    city: 'vancouver',
+    price: '$',
+    rating: 80,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Joyce Pizza',
+    city: 'vancouver',
+    price: '$',
+    rating: 84,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Famous Warehouse',
+    city: 'vancouver',
+    price: '$',
+    rating: 86,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Big Chicken Town',
+    city: 'surrey,coquitlam',
+    price: '$$',
+    rating: 79,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Win Win Chick-N',
+    city: 'richmond',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Tacofino',
+    city: 'vancouver',
+    price: '$$',
+    rating: 78,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Ba Le Sandwich Shop',
+    city: 'vancouver',
+    price: '$',
+    rating: 80,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'King’s Cafe',
+    city: 'vancouver',
+    price: '$',
+    rating: 69,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Japadog',
+    city: 'vancouver,richmond',
+    price: '$',
+    rating: 78,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'The American Cheesesteak',
+    city: 'vancouver,burnaby',
+    price: '$$',
+    rating: 61,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'La Taqueria Pinche Taco Shop',
+    city: 'vancouver,north vancouver',
+    price: '$',
+    rating: 81,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Splitz Grill',
+    city: 'vancouver',
+    price: '$$',
+    rating: 71,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
+  },
+  {
+    name: 'Great Wall Mongolian BBQ',
+    city: 'vancouver',
+    price: '$$',
+    rating: 73,
+    visitCount: 1,
+    type: 'snack/small food',
+    isClosed: false
   }
 ]
