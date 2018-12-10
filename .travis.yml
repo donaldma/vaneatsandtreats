@@ -3,3 +3,14 @@ node_js:
   - node
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: KM3Ncu3EXKKCZUZAYZlETssAnCerxr0pbHAGsN5AKFENr/iZ36zwzMBTggbxmIBuNRQ+xCPVEcMnuW97IEO7YUZQBcDXUMnnLcl1Xn/X2XUf5I1W3eJJoYtbIzkVvvULMApmIhxPfisgp5DtzdvqDMZovCfmbGR+1r13k4WEZjy2A3e9ZLey/fHqUhK9r4Oxs0BsfAoVzEN/8cGScE6xVqgOex9UAyZkMSOR5ScUl8jugYBteDw2aU0dIdauvYvH6VI06GZjQYyxZ/B8mEwLSaHwiKzWEHCpYlHbboLBXsIzp34sMUH4miAZkAPChoIf0ryui9kJJHEd/TXY5KVu0n5Y/FN9YL3UG38iEYU8PXk+CxAYfgYGituAPOdZ0Z7sPl6PlKNBHt08iSGVNo53hpUfuMsz1WlxAkfO1vrKemvUJIg2id9o66SlHKSqgYwBlOE1Khb03XWSYwnnWLskMK8rL1UJHKa57AibBUysVH01ad4gDJ3evbibkAn+HOjxDo/HM4vjSUQ70/ELCGgnNGfo4nDC4TuvL8wvtXhwIx2JVdJcLYfFzkEC1bfpYHpohHYVmlu9CDO0BOt7ILlsWB/eQNeG7kFyswXPQJ5j+Xd1mTxHsPFws55gwEchKSddvlUl0e+IRmvsFyLOe0CpdfJWEBAd07KBTAccq/zr8C8=
+  app: vaneatsandtreats
+  on:
+    branch: master
+    repo: donaldma/vaneatsandtreats
+  run:
+    - 'knex migrate:latest'
+    - 'knex seed:run'
