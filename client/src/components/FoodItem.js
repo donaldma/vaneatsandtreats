@@ -48,7 +48,10 @@ class FoodItem extends Component {
           <div className='row'>
             <div className='col-8 offset-2 text-center'>
               <div className='mb-3'>
-                <span className='mb-3 font-weight-bold'>{index}.</span> {displayName}
+                <span className='mb-3 font-weight-bold'>{index}.</span>{' '}
+                <a href={`https://www.yelp.ca/search?find_desc=${name}&find_loc=Vancouver,+BC`} target='_blank' className='dark-link'>
+                  {displayName}
+                </a>
               </div>
               <div className='mb-3'>
                 <i className={classes.visitCount}>visited {visitCount} times</i>

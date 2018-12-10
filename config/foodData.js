@@ -298,7 +298,7 @@ module.exports = [
     isClosed: false
   },
   {
-    name: 'The Edge Café',
+    name: 'The Edge Cafe',
     city: 'vancouver',
     price: '$$',
     rating: 20,
@@ -321,15 +321,6 @@ module.exports = [
     price: '$$',
     rating: 70,
     visitCount: 2,
-    type: 'dessert',
-    isClosed: false
-  },
-  {
-    name: 'Bubble World',
-    city: 'vancouver,richmond,burnaby',
-    price: '$',
-    rating: 60,
-    visitCount: 1,
     type: 'dessert',
     isClosed: false
   },
@@ -1469,4 +1460,117 @@ module.exports = [
     type: 'western/greek/italian',
     isClosed: false
   },
+  { name: 'BT Cafe', city: 'vancouver', price: '$', rating: 76, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  { name: 'E Tea', city: 'vancouver', price: '$', rating: 74, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Alleluia Cafe',
+    city: 'richmond',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: true
+  },
+  {
+    name: 'Copa Cafe',
+    city: 'vancouver,richmond',
+    price: '$$',
+    rating: 85,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Typhoon BBT',
+    city: 'richmond',
+    price: '$',
+    rating: 82,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  { name: 'Soho Tea Room', city: 'vancouver', price: '$$', rating: 77, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Bubble World',
+    city: 'vancouver,richmond,burnaby',
+    price: '$',
+    rating: 73,
+    visitCount: 2,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Honolulu Cafe',
+    city: 'vancouver',
+    price: '$',
+    rating: 81,
+    visitCount: 3,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Yuu Japanese Tapas',
+    city: 'richmond',
+    price: '$$',
+    rating: 80,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Silver Tower Cafe Restaurant',
+    city: 'richmond',
+    price: '$',
+    rating: 64,
+    visitCount: 3,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Dragonview Chinese Cuisine',
+    city: 'richmond',
+    price: '$$',
+    rating: 76,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Neptune Express',
+    city: 'richmond',
+    price: '$$',
+    rating: 50,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  {
+    name: 'Van Dragon Chinese Restaurant',
+    city: 'vancouver',
+    price: '$$',
+    rating: 83,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  { name: 'Tin Tin Seafood Harbour', city: 'richmond', price: '$$', rating: 75, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Come Along Seafood Restaurant',
+    city: 'vancouver',
+    price: '$$',
+    rating: 90,
+    visitCount: 3,
+    type: 'asian/dim sum',
+    isClosed: false
+  },
+  { name: 'NingTu Restaurant', city: 'vancouver', price: '$$', rating: 84, visitCount: 1, type: 'asian/dim sum', isClosed: false },
+  {
+    name: 'Pepper Lunch',
+    city: 'vancouver,richmond',
+    price: '$$',
+    rating: 50,
+    visitCount: 1,
+    type: 'asian/dim sum',
+    isClosed: false
+  }
 ]
