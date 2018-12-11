@@ -22,13 +22,11 @@ const session = require('express-session')
 
 /**
  * START CRON JOBS
- *
  */
-// cron.schedule('*/15 * * * *', () => {
-//   console.log('Ping App')
-//   axios.get('https://vaneatsandtreats.herokuapp.com/')
-// })
-
+cron.schedule('*/15 * * * *', () => {
+  console.log('Ping App')
+  axios.get('https://vaneatsandtreats.herokuapp.com/')
+})
 /**
  * END CRON JOBS
  */
