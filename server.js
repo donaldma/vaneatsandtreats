@@ -22,7 +22,7 @@ const session = require('express-session')
 
 /**
  * START CRON JOBS
- * test
+ *
  */
 // cron.schedule('*/15 * * * *', () => {
 //   console.log('Ping App')
