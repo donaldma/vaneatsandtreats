@@ -50,6 +50,7 @@ jQuery(document).ready(function ($) {
 		//on small screens, open navigation clicking on the menu icon
 		this.element.on('click', '.nav-trigger', function (event) {
 			event.preventDefault();
+			console.log('nav-trigger')
 			self.element.toggleClass('nav-open');
 		});
 	};
