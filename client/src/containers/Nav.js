@@ -109,7 +109,7 @@ class Nav extends Component {
             <img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' />
           </Link>
         </div>
-        <a href='#0' className='nav-trigger'>
+        <a href='#' className='nav-trigger'>
           Open Nav
           <span aria-hidden='true' />
         </a>
