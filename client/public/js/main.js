@@ -1,6 +1,8 @@
 jQuery(document).ready(function($) {
 	console.log('main.js')
   function morphDropdown(element) {
+		console.log('element',element)
+
     this.element = element
     this.mainNavigation = this.element.find('.main-nav')
     this.mainNavigationItems = this.mainNavigation.find('.has-dropdown')
@@ -24,6 +26,7 @@ jQuery(document).ready(function($) {
   }
 
   morphDropdown.prototype.bindEvents = function() {
+		console.log('bindEvents')
     var self = this
     //hover over an item in the main navigation
     this.mainNavigationItems
