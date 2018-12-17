@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+	console.log('main.js')
   function morphDropdown(element) {
     this.element = element
     this.mainNavigation = this.element.find('.main-nav')
