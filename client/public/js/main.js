@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
   console.log('main.js')
   function morphDropdown(element) {
     console.log('element', element)
