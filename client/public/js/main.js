@@ -151,10 +151,13 @@ jQuery(document).ready(function($) {
     }
   }
 
-  var morphDropdowns = []
+	var morphDropdowns = []
+	console.log('morphDropdowns',morphDropdowns)
   if ($('.cd-morph-dropdown').length > 0) {
     $('.cd-morph-dropdown').each(function() {
+			console.log('.cd-morph-dropdown')
       //create a morphDropdown object for each .cd-morph-dropdown
+			console.log('.cd-morph-dropdown push',$(this))
       morphDropdowns.push(new morphDropdown($(this)))
     })
 
