@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-
   console.log('main.js')
   function morphDropdown(element) {
     console.log('element', element)
@@ -153,6 +152,7 @@ jQuery(document).ready(function($) {
   }
 
   var morphDropdowns = []
+  console.log('.cd-morph-dropdown', $('.cd-morph-dropdown'))
   if ($('.cd-morph-dropdown').length > 0) {
     console.log('.cd-morph-dropdown length > 0')
     $('.cd-morph-dropdown').each(function() {
