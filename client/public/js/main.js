@@ -1,7 +1,9 @@
-jQuery(document).ready(function($) {
-	console.log('main.js')
+// jQuery(document).ready(function($) {
+
+$(function() {
+  console.log('main.js')
   function morphDropdown(element) {
-		console.log('element',element)
+    console.log('element', element)
 
     this.element = element
     this.mainNavigation = this.element.find('.main-nav')
@@ -26,7 +28,7 @@ jQuery(document).ready(function($) {
   }
 
   morphDropdown.prototype.bindEvents = function() {
-		console.log('bindEvents')
+    console.log('bindEvents')
     var self = this
     //hover over an item in the main navigation
     this.mainNavigationItems
@@ -66,8 +68,8 @@ jQuery(document).ready(function($) {
 
     //on small screens, open navigation clicking on the menu icon
     this.element.on('click', '.nav-trigger', function(event) {
-			event.preventDefault()
-			console.log('nav-trigger')
+      event.preventDefault()
+      console.log('nav-trigger')
       self.element.toggleClass('nav-open')
     })
   }
@@ -151,13 +153,12 @@ jQuery(document).ready(function($) {
     }
   }
 
-	var morphDropdowns = []
-	console.log('morphDropdowns',morphDropdowns)
+  var morphDropdowns = []
   if ($('.cd-morph-dropdown').length > 0) {
+    console.log('.cd-morph-dropdown length > 0')
     $('.cd-morph-dropdown').each(function() {
-			console.log('.cd-morph-dropdown')
       //create a morphDropdown object for each .cd-morph-dropdown
-			console.log('.cd-morph-dropdown push',$(this))
+      console.log('.cd-morph-dropdown push', $(this))
       morphDropdowns.push(new morphDropdown($(this)))
     })
 
@@ -182,4 +183,5 @@ jQuery(document).ready(function($) {
       resizing = false
     }
   }
+  console.log('morphDropdowns', morphDropdowns)
 })
