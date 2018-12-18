@@ -1,6 +1,5 @@
-// jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
-$(function() {
   console.log('main.js')
   function morphDropdown(element) {
     console.log('element', element)
