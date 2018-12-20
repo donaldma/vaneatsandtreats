@@ -6,13 +6,15 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
   margin: 0;
-	padding: 0;
+  padding: 0;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 a {
   text-decoration: none !important;
@@ -50,7 +52,7 @@ a {
 }
 
 .react-tagsinput {
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   &--focused {
     border-color: #ccc !important;
   }
@@ -63,4 +65,8 @@ a {
   &:focus {
     outline: none;
   }
+}
+
+.loader-container {
+  height: calc(100vh - 80px);
 }
