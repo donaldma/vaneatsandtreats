@@ -55,3 +55,11 @@ a {
     border-color: #ccc !important;
   }
 }
+
+.button-link {
+  cursor: pointer;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}

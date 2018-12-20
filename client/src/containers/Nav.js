@@ -3,8 +3,35 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { logout } from '../actions'
 import Icon from '@material-ui/core/Icon'
+import classNames from 'classnames'
 
 class Nav extends Component {
+  state = {
+    mobileNavOpen: false
+  }
+
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside)
+  }
+
+  handleNavTriggerClick = (override) => {
+    this.setState({ mobileNavOpen: !this.state.mobileNavOpen })
+  }
+
+  setWrapperRef = (node) => {
+    this.wrapperRef = node
+  }
+
+  handleClickOutside = (event) => {
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+      this.setState({ mobileNavOpen: false })
+    }
+  }
+
   renderDesktopContent = () => {
     const { user } = this.props
     let content
@@ -103,16 +130,19 @@ class Nav extends Component {
 
   render() {
     return (
-      <header className='cd-morph-dropdown'>
+      <header
+        ref={this.setWrapperRef}
+        className={classNames('cd-morph-dropdown', { 'nav-open': this.state.mobileNavOpen })}
+      >
         <div className='mobile-logo'>
           <Link to='/'>
             <img src='/img/nav-logo.png' alt='nav-logo' className='logo-img' />
           </Link>
         </div>
-        <a href='#' className='nav-trigger'>
+        <button className='nav-trigger button-link' onClick={() => this.handleNavTriggerClick()}>
           Open Nav
           <span aria-hidden='true' />
-        </a>
+        </button>
 
         <div className='container p-0'>
           <nav className='main-nav'>
